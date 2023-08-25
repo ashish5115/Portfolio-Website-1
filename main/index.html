@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish - Developer Portfolio</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ashish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ashish</span>
+                <div>
+                    and I am a passionate
+                    <span id="element"></span>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="bg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have so far</span>
+            <button class="btn">Download my Resume</button>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./images/1.png" alt="1">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis itaque, accusamus facere perferendis obcaecati alias!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images/2.png" alt="1">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis itaque, accusamus facere perferendis obcaecati alias!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images/3.png" alt="1">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis itaque, accusamus facere perferendis obcaecati alias!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images/4.png" alt="1">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis itaque, accusamus facere perferendis obcaecati alias!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ashish's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="https://github.com/ashish5115" target="_blank"><img class="social" src="./images/Social/github.png" alt="github"></a></li>
+                    <li><a href="https://www.linkedin.com/in/ashish5115/" target="_blank"><img class="social" src="./images/Social/linkedin.png" alt="github"></a></li>
+                    <li><a href="https://www.instagram.com/maiashishhun/" target="_blank"><img class="social" src="./images/Social/instagram.png" alt="github"></a></li>
+                    <li><a href="mailto:itsashish0007@gmail.com" target="_blank"><img class="social" src="./images/Social/mail.png" alt="github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer.', 'a continous learner.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
